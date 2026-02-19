@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #1f2937;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links li:hover {
+  color: #facc15;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 15px;
+}
+
+.login-btn,
+.cart-btn {
+  padding: 6px 14px;
+  border: none;
+  background-color: #facc15;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-btn:hover,
+.cart-btn:hover {
+  background-color: #eab308;
+}
